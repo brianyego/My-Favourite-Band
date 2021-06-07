@@ -4,16 +4,52 @@
     font-family: 'Dosis' sans-serif;
 }
 body{
-    background-color: dodgerblue;
+    background-color: khaki;
 }
 h1{
-    color: white;
+    color: midnightblue;
     text-align: center;
+    margin-left: 20px;
+}
+/* This is a multi-line comment*/
+p{
+    text-align: center;
+    color: black;
+}
+img{
+    float: center;
+
 }
 p{
     font-family: Verdana;
     font-size: 20px;
 }
-img{
-    align-content right;
+h2,h3{
+    color: navy;
+    margin-left: 20px;
 }
+rgb(
+    red, green, blue)
+)
+div{
+    background: rgba(0,128,0,0.3)/*Green background with 30% opacity*/
+}
+body {
+    background-color: #ffffff;
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+  }
+  .hero{
+      width: 80%;
+      margin: auto;
+  }
+  .navbar{
+      margin: 30px;
+      display: flex;
+      align-items: center;
+  }
+  selector:pseudo-class{
+      property: value;
+  }
+  
